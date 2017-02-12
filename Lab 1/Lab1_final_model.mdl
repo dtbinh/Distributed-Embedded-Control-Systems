@@ -1,0 +1,3477 @@
+Model {
+  Name			  "Model_Lab"
+  Version		  8.3
+  MdlSubVersion		  0
+  SavedCharacterEncoding  "windows-1252"
+  GraphicalInterface {
+    NumRootInports	    0
+    NumRootOutports	    0
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.7"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+  }
+  SaveDefaultBlockParams  on
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  UserBdParams		  "MotoHawkModelGUID;MotoHawkModelOpenTime;MotoHawkBuildVersion;MotoHawkBuildStats;MotoHawkBuildDirect"
+  "ory;MotoHawkBuildInfo;MotoHawkBuildGUID;MotoHawkModelSavedName;MotoHawkModelElapsedTime"
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    1
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      2
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [-8.0, 0.0, 1378.0, 744.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		3
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Object {
+	$PropName		"EditorsInfo"
+	$ObjectID		5
+	$ClassName		"Simulink.EditorInfo"
+	IsActive		[1]
+	ViewObjType		"SimulinkSubsys"
+	LoadSaveID		"6"
+	Extents			[1328.0, 569.0]
+	ZoomFactor		[1.0]
+	Offset			[206.98798244781574, 70.607978498002581]
+      }
+    }
+  }
+  MotoHawkModelGUID	  "4D97C91F-A6FE-4CC6-B3CD-41BF43BB2813"
+  MotoHawkModelOpenTime	  "2016 1 31 21 33 9.788 "
+  MotoHawkBuildVersion	  "006"
+  MotoHawkBuildStats	  "struct('TotalFLASH',{0},'TotalEEPROM',{0},'TotalRAM',{0},'AppFLASH',{0},'AppEEPROM',{0},'AppRA"
+  "M',{0},'HeapRAM',{0},'BuildSuccessCount',{6},'BuildErrorCount',{0})"
+  MotoHawkBuildDirectory  "H:\\MATLAB\\untitled_Build"
+  MotoHawkBuildInfo	  "struct('model_name',{'untitled'},'motohawk_version',{'2014a_sp3.1030'},'motohawk_component_vers"
+  "ion',{'0.0.8'},'matlab_version',{'8.3.0'},'build_version',{'005'},'module_type',{'ECU565-128'},'layout_type',{'DEV'}"
+  ",'processor_family',{'PPC'},'processor_type',{'MPC565'},'toolchain_vendor',{'gcc-powerpc-eabi'},'toolchain_version',"
+  "{'4.6.0'},'component',{0},'archive_file',{'PCM128.a'},'enable_build',{1},'fptype',{0},'flash_size',{1048576},'ee_siz"
+  "e',{8192},'ram_size',{36864},'decram_size',{4096},'eri_table0_rev',{9},'max_eri_table_size',{65535},'fgnd_base_perio"
+  "d_ms',{5},'bgnd_base_period_ms',{50},'build_dir',{'H:\\MATLAB\\untitled_Build'},'dll_name',{'untitled_005'},'srz_nam"
+  "e',{'untitled_005'},'fgnd_stack_size',{3072},'fgnd_angle_stack_size',{0},'bgnd_stack_size',{2048},'idle_stack_size',"
+  "{1024},'irq_stack_size',{1536},'heap_size',{4096},'heap_margin',{409},'install_dll_dir',{'C:\\ECUFiles\\TDBDLL'},'in"
+  "stall_srz_dir',{'C:\\ECUFiles\\Programs'},'app_int_stack_size',{1024},'shutdown_stack_size',{1024},'mingw_dir',{'C:\\"
+  "Program Files (x86)\\Woodward\\DevelopmentTools\\Toolchains\\GCC\\win32-pe\\4_7_0'},'motohawk_dir',{'C:\\Program Fil"
+  "es (x86)\\Woodward\\MCS\\MotoHawk\\2014a_sp3.1030'},'toolchain_dir',{'C:\\Program Files (x86)\\Woodward\\Development"
+  "Tools\\Toolchains\\GCC\\powerpc-eabi\\4_6_0'},'matlab_root',{'C:\\Program Files\\MATLAB\\2014a'},'model_guid',{'0FE0"
+  "F7F5-1A1F-41B4-8F84-A156B9D43C4A'},'build_guid',{'BCF68FDA-5FEE-4D68-841E-FAD4F401FF62'},'token_guid',{'8EE1B97C1550"
+  "854A817977573A67FBA2'})"
+  MotoHawkBuildGUID	  "BCF68FDA-5FEE-4D68-841E-FAD4F401FF62"
+  MotoHawkModelSavedName  "Model_Lab"
+  MotoHawkModelElapsedTime "18184.594"
+  Created		  "Sat Jan 30 14:10:44 2016"
+  Creator		  "lbaruah"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "Lopa"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Sun Jan 31 21:33:18 2016"
+  RTWModifiedTimeStamp	  376067968
+  ModelVersionFormat	  "1.%<AutoIncrement:7>"
+  ConfigurationManager	  "none"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "user"
+  WideLines		  on
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  SimulationMode	  "normal"
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    6
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "untitled"
+    overrideMode_	    [0.0]
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "untitled"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      []
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  CovForceBlockReductionOff on
+  CovEnableCumulative	  on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  CovReportOnPause	  on
+  CovModelRefEnable	  "Off"
+  CovExternalEMLEnable	  off
+  CovSFcnEnable		  off
+  CovBoundaryAbsTol	  0.000010
+  CovBoundaryRelTol	  0.010000
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  BufferReuse		  on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    2
+    Simulink.ConfigSet {
+      $ObjectID		      7
+      Version		      "1.14.2"
+      Array {
+	Type			"Handle"
+	Dimension		8
+	Simulink.SolverCC {
+	  $ObjectID		  8
+	  Version		  "1.14.2"
+	  StartTime		  "0.0"
+	  StopTime		  "10.0"
+	  AbsTol		  "auto"
+	  FixedStep		  "auto"
+	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  SolverMode		  "Auto"
+	  EnableConcurrentExecution off
+	  ConcurrentTasks	  off
+	  Solver		  "ode45"
+	  SolverName		  "ode45"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  9
+	  Version		  "1.14.2"
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Array"
+	  SignalLoggingSaveFormat "Dataset"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  10
+	  Version		  "1.14.2"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    PropName		    "DisabledProps"
+	  }
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  InlineParams		  off
+	  UseIntDivNetSlope	  off
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  ExpressionDepthLimit	  128
+	  FoldNonRolledExpr	  on
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  SystemCodeInlineAuto	  off
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
+	  UseTempVars		  off
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  OptimizeModelRefInitCode off
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "Off"
+	  AccelVerboseBuild	  off
+	  ParallelExecutionInRapidAccelerator on
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  11
+	  Version		  "1.14.2"
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Simplified"
+	  MergeDetectMultiDrivingBlocksExec "none"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "warning"
+	  InheritedTsInSrcMsg	  "warning"
+	  DiscreteInheritContinuousMsg "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "EnableAllAsError"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "warning"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  EnableOverflowDetection off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  ModelReferenceCSMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "none"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  LoggingUnavailableSignals "error"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnconditionalTransitionShadowingDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  12
+	  Version		  "1.14.2"
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "Unspecified"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
+	  ProdHWDeviceType	  "32-bit Generic"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetTypeEmulationWarnSuppressLevel 0
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  13
+	  Version		  "1.14.2"
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  14
+	  Version		  "1.14.2"
+	  SFSimEnableDebug	  on
+	  SFSimOverflowDetection  on
+	  SFSimEcho		  on
+	  SimBlas		  on
+	  SimCtrlC		  on
+	  SimExtrinsic		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimBuildMode		  "sf_incremental_build"
+	  SimGenImportedTypeDefs  off
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  15
+	  Version		  "1.14.2"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    15
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "PortableWordSizes"
+	    Cell		    "GenerateWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    Cell		    "GenerateCodeReplacementReport"
+	    Cell		    "GenerateErtSFunction"
+	    Cell		    "CreateSILPILBlock"
+	    Cell		    "CodeExecutionProfiling"
+	    Cell		    "CodeProfilingSaveOptions"
+	    Cell		    "CodeProfilingInstrumentation"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "grt.tlc"
+	  TLCOptions		  ""
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  PackageName		  ""
+	  TemplateMakefile	  "grt_default_tmf"
+	  PostCodeGenCommand	  ""
+	  Description		  ""
+	  GenerateReport	  off
+	  SaveLog		  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  ProcessScriptMode	  "Default"
+	  ConfigurationMode	  "Optimized"
+	  ProcessScript		  ""
+	  ConfigurationScript	  ""
+	  ConfigAtBuild		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  CustomSourceCode	  ""
+	  CustomHeaderCode	  ""
+	  CustomInclude		  ""
+	  CustomSource		  ""
+	  CustomLibrary		  ""
+	  CustomInitializer	  ""
+	  CustomTerminator	  ""
+	  Toolchain		  "Automatically locate an installed toolchain"
+	  BuildConfiguration	  "Faster Builds"
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation off
+	  SILDebugging		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  IncludeERTFirstTime	  off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateCodeInfo	  off
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  RTWCompilerOptimization "Off"
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  CustomRebuildMode	  "OnUpdate"
+	  DataInitializer	  ""
+	  SharedConstantsCachingThreshold 1024
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      16
+	      Version		      "1.14.2"
+	      Array {
+		Type			"Cell"
+		Dimension		23
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InternalIdentifier"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"CustomSymbolStrUtil"
+		Cell			"ReqsInCode"
+		PropName		"DisabledProps"
+	      }
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      CommentStyle	      "Auto"
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      IncHierarchyInIds	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      OperatorAnnotations     off
+	      IncAutoGenComments      off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      IncDataTypeInIds	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M_T"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InternalIdentifier      "Shortened"
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      17
+	      Version		      "1.14.2"
+	      Array {
+		Type			"Cell"
+		Dimension		14
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"CombineOutputUpdateFcns"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"GenerateAllocFcn"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		PropName		"DisabledProps"
+	      }
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C89/C90 (ANSI)"
+	      CodeReplacementLibrary  "None"
+	      UtilityFuncGeneration   "Auto"
+	      ERTMultiwordTypeDef     "System defined"
+	      ERTMultiwordLength      256
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Disable all"
+	      CombineOutputUpdateFcns on
+	      CombineSignalStateStructs	off
+	      SuppressErrorStatus     off
+	      ERTFirstTimeCompliant   off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      CodeInterfacePackaging  "Nonreusable function"
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      SupportVariableSizeSignals off
+	      EnableShiftOperators    on
+	      ParenthesesLevel	      "Nominal"
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    on
+	      AutosarCompliant	      off
+	      GRTInterface	      off
+	      GenerateAllocFcn	      off
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	      MultiInstanceErrorCode  "Error"
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition     [ 300, 205, 1380, 845 ] 
+    }
+    Simulink.ConfigSet {
+      $ObjectID		      18
+      Version		      "1.14.2"
+      Description	      "This Simulink Configuration Set is preconfigured  for the MotoHawk target \"ECU565-128\"."
+      Array {
+	Type			"Handle"
+	Dimension		8
+	Simulink.SolverCC {
+	  $ObjectID		  19
+	  Version		  "1.14.2"
+	  StartTime		  "0.0"
+	  StopTime		  "10.0"
+	  AbsTol		  "auto"
+	  FixedStep		  "auto"
+	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  SolverMode		  "Auto"
+	  EnableConcurrentExecution off
+	  ConcurrentTasks	  off
+	  Solver		  "FixedStepDiscrete"
+	  SolverName		  "FixedStepDiscrete"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  20
+	  Version		  "1.14.2"
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Array"
+	  SignalLoggingSaveFormat "Dataset"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  21
+	  Version		  "1.14.2"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    11
+	    Cell		    "LifeSpan"
+	    Cell		    "InlineParams"
+	    Cell		    "InlineInvariantSignals"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "InitFltsAndDblsToZero"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "OptimizeBlockIOStorage"
+	    Cell		    "BufferReuse"
+	    Cell		    "ExpressionFolding"
+	    Cell		    "EnhancedBackFolding"
+	    PropName		    "DisabledProps"
+	  }
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  InlineParams		  on
+	  UseIntDivNetSlope	  off
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  on
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  on
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  ExpressionDepthLimit	  128
+	  FoldNonRolledExpr	  on
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  SystemCodeInlineAuto	  off
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
+	  UseTempVars		  off
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  on
+	  NoFixptDivByZeroProtection on
+	  EfficientFloat2IntCast  on
+	  EfficientMapNaN2IntZero on
+	  OptimizeModelRefInitCode on
+	  LifeSpan		  "1"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "Off"
+	  AccelVerboseBuild	  off
+	  ParallelExecutionInRapidAccelerator on
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  22
+	  Version		  "1.14.2"
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Classic"
+	  MergeDetectMultiDrivingBlocksExec "none"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "none"
+	  InheritedTsInSrcMsg	  "none"
+	  DiscreteInheritContinuousMsg "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "none"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "EnableAllAsError"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "warning"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  EnableOverflowDetection off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  ModelReferenceCSMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "none"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  LoggingUnavailableSignals "error"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnconditionalTransitionShadowingDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  23
+	  Version		  "1.14.2"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    11
+	    Cell		    "ProdEqTarget"
+	    Cell		    "ProdHWDeviceType"
+	    Cell		    "ProdBitPerChar"
+	    Cell		    "ProdBitPerShort"
+	    Cell		    "ProdBitPerInt"
+	    Cell		    "ProdBitPerLong"
+	    Cell		    "ProdWordSize"
+	    Cell		    "ProdEndianess"
+	    Cell		    "ProdLargestAtomicFloat"
+	    Cell		    "ProdLargestAtomicInteger"
+	    Cell		    "ProdIntDivRoundTo"
+	    PropName		    "DisabledProps"
+	  }
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdLargestAtomicInteger "Integer"
+	  ProdLargestAtomicFloat  "Float"
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "BigEndian"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
+	  ProdHWDeviceType	  "Specified"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetTypeEmulationWarnSuppressLevel 0
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  24
+	  Version		  "1.14.2"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    3
+	    Cell		    "ModelReferenceNumInstancesAllowed"
+	    Cell		    "UpdateModelReferenceTargets"
+	    Cell		    "CheckModelReferenceTargetMessage"
+	    PropName		    "DisabledProps"
+	  }
+	  UpdateModelReferenceTargets "AssumeUpToDate"
+	  CheckModelReferenceTargetMessage "none"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Zero"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  25
+	  Version		  "1.14.2"
+	  SFSimEnableDebug	  on
+	  SFSimOverflowDetection  on
+	  SFSimEcho		  on
+	  SimBlas		  on
+	  SimCtrlC		  on
+	  SimExtrinsic		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimBuildMode		  "sf_incremental_build"
+	  SimGenImportedTypeDefs  off
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  26
+	  Version		  "1.14.2"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    9
+	    Cell		    "SystemTargetFile"
+	    Cell		    "GenerateMakefile"
+	    Cell		    "TemplateMakefile"
+	    Cell		    "TargetLang"
+	    Cell		    "GenerateErtSFunction"
+	    Cell		    "PortableWordSizes"
+	    Cell		    "CodeExecutionProfiling"
+	    Cell		    "CodeProfilingInstrumentation"
+	    Cell		    "PackageGeneratedCodeAndArtifacts"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "motohawk_ert_rtw.tlc"
+	  TLCOptions		  ""
+	  GenCodeOnly		  off
+	  MakeCommand		  "motohawk_make_rtw"
+	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  PackageName		  ""
+	  TemplateMakefile	  "motohawk_ert_rtw.tmf"
+	  PostCodeGenCommand	  ""
+	  Description		  "MotoHawk(tm) Rapid Prototyping"
+	  GenerateReport	  off
+	  SaveLog		  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  ProcessScriptMode	  "Default"
+	  ConfigurationMode	  "Optimized"
+	  ProcessScript		  "motohawk_ert_rtw_make_rtw_hook"
+	  ConfigurationScript	  ""
+	  ConfigAtBuild		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  CustomSourceCode	  ""
+	  CustomHeaderCode	  ""
+	  CustomInclude		  ""
+	  CustomSource		  ""
+	  CustomLibrary		  ""
+	  CustomInitializer	  ""
+	  CustomTerminator	  ""
+	  Toolchain		  "Automatically locate an installed toolchain"
+	  BuildConfiguration	  "Faster Builds"
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation off
+	  SILDebugging		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  IncludeERTFirstTime	  off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateCodeInfo	  off
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  RTWCompilerOptimization "Off"
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  CustomRebuildMode	  "OnUpdate"
+	  DataInitializer	  ""
+	  SharedConstantsCachingThreshold 1024
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      27
+	      Version		      "1.14.2"
+	      Array {
+		Type			"Cell"
+		Dimension		4
+		Cell			"MaxIdLength"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrType"
+		Cell			"InternalIdentifier"
+		PropName		"DisabledProps"
+	      }
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      CommentStyle	      "Auto"
+	      IgnoreCustomStorageClasses off
+	      IgnoreTestpoints	      off
+	      IncHierarchyInIds	      off
+	      MaxIdLength	      100
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      OperatorAnnotations     off
+	      IncAutoGenComments      off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      IncDataTypeInIds	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M"
+	      CustomSymbolStrField    "$H$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InternalIdentifier      "Classic"
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	    }
+	    Simulink.STFCustomTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      28
+	      Version		      "1.14.2"
+	      Array {
+		Type			"Cell"
+		Dimension		18
+		Cell			"CombineOutputUpdateFcns"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"GRTInterface"
+		Cell			"GenerateSampleERTMain"
+		Cell			"MatFileLogging"
+		Cell			"MultiInstanceERTCode"
+		Cell			"SuppressErrorStatus"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportNonFinite"
+		Cell			"CombineSignalStateStructs"
+		Cell			"ModelReferenceCompliant"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportVariableSizeSignals"
+		Cell			"SupportNonInlinedSFcns"
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"ERTMultiwordTypeDef"
+		Cell			"ERTMultiwordLength"
+		PropName		"DisabledProps"
+	      }
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C89/C90 (ANSI)"
+	      CodeReplacementLibrary  "None"
+	      UtilityFuncGeneration   "Auto"
+	      ERTMultiwordTypeDef     "User defined"
+	      ERTMultiwordLength      0
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      ModelReferenceCompliant off
+	      ParMdlRefBuildCompliant off
+	      CompOptLevelCompliant   off
+	      ConcurrentExecutionCompliant off
+	      IncludeMdlTerminateFcn  off
+	      GeneratePreprocessorConditionals "Disable all"
+	      CombineOutputUpdateFcns on
+	      CombineSignalStateStructs	off
+	      SuppressErrorStatus     on
+	      ERTFirstTimeCompliant   off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    on
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      off
+	      MultiInstanceERTCode    off
+	      CodeInterfacePackaging  "Nonreusable function"
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   off
+	      SupportNonInlinedSFcns  off
+	      SupportVariableSizeSignals off
+	      EnableShiftOperators    on
+	      ParenthesesLevel	      "Nominal"
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.ERTCustomization"
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    off
+	      AutosarCompliant	      off
+	      GRTInterface	      off
+	      GenerateAllocFcn	      off
+	      SystemTargetFile	      "motohawk_ert_rtw.tlc"
+	      DialogCategory	      0
+	      Array {
+		Type			"Handle"
+		Dimension		1
+		Simulink.ERTTargetCC {
+		  $BackupClass		  "Simulink.TargetCC"
+		  $ObjectID		  29
+		  Version		  "1.14.2"
+		  Array {
+		    Type		    "Cell"
+		    Dimension		    22
+		    Cell		    "CombineOutputUpdateFcns"
+		    Cell		    "IncludeMdlTerminateFcn"
+		    Cell		    "GRTInterface"
+		    Cell		    "GenerateSampleERTMain"
+		    Cell		    "TargetOS"
+		    Cell		    "MatFileLogging"
+		    Cell		    "MultiInstanceERTCode"
+		    Cell		    "SuppressErrorStatus"
+		    Cell		    "PurelyIntegerCode"
+		    Cell		    "SupportNonFinite"
+		    Cell		    "CombineSignalStateStructs"
+		    Cell		    "ModelReferenceCompliant"
+		    Cell		    "SupportAbsoluteTime"
+		    Cell		    "SupportContinuousTime"
+		    Cell		    "SupportVariableSizeSignals"
+		    Cell		    "SupportNonInlinedSFcns"
+		    Cell		    "EnableUserReplacementTypes"
+		    Cell		    "GeneratePreprocessorConditionals"
+		    Cell		    "ERTMultiwordTypeDef"
+		    Cell		    "ERTMultiwordLength"
+		    Cell		    "ERTFilePackagingFormat"
+		    Cell		    "InlinedParameterPlacement"
+		    PropName		    "DisabledProps"
+		  }
+		  TargetFcnLib		  "ansi_tfl_table_tmw.mat"
+		  TargetLibSuffix	  ""
+		  TargetPreCompLibLocation ""
+		  GenFloatMathFcnCalls	  "NOT IN USE"
+		  TargetLangStandard	  "C89/C90 (ANSI)"
+		  CodeReplacementLibrary  "None"
+		  UtilityFuncGeneration	  "Auto"
+		  ERTMultiwordTypeDef	  "User defined"
+		  ERTMultiwordLength	  0
+		  MultiwordLength	  2048
+		  GenerateFullHeader	  on
+		  GenerateSampleERTMain	  off
+		  GenerateTestInterfaces  off
+		  ModelReferenceCompliant off
+		  ParMdlRefBuildCompliant off
+		  CompOptLevelCompliant	  off
+		  ConcurrentExecutionCompliant off
+		  IncludeMdlTerminateFcn  off
+		  GeneratePreprocessorConditionals "Disable all"
+		  CombineOutputUpdateFcns on
+		  CombineSignalStateStructs off
+		  SuppressErrorStatus	  on
+		  ERTFirstTimeCompliant	  off
+		  IncludeFileDelimiter	  "Auto"
+		  ERTCustomFileBanners	  on
+		  SupportAbsoluteTime	  on
+		  LogVarNameModifier	  "rt_"
+		  MatFileLogging	  off
+		  MultiInstanceERTCode	  off
+		  CodeInterfacePackaging  "Nonreusable function"
+		  SupportNonFinite	  on
+		  SupportComplex	  on
+		  PurelyIntegerCode	  off
+		  SupportContinuousTime	  off
+		  SupportNonInlinedSFcns  off
+		  SupportVariableSizeSignals off
+		  EnableShiftOperators	  on
+		  ParenthesesLevel	  "Nominal"
+		  MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.ERTCustomization"
+		  ModelStepFunctionPrototypeControlCompliant off
+		  CPPClassGenCompliant	  off
+		  AutosarCompliant	  off
+		  GRTInterface		  off
+		  GenerateAllocFcn	  off
+		  GenerateASAP2		  off
+		  ExtMode		  off
+		  ExtModeTransport	  0
+		  ExtModeStaticAlloc	  off
+		  ExtModeStaticAllocSize  1000000
+		  ExtModeTesting	  off
+		  ExtModeMexFile	  "ext_comm"
+		  ExtModeIntrfLevel	  "Level1"
+		  InlinedParameterPlacement "NonHierarchical"
+		  TargetOS		  "BareBoardExample"
+		  MultiInstanceErrorCode  "Error"
+		  RateGroupingCode	  on
+		  RootIOFormat		  "Individual arguments"
+		  RTWCAPISignals	  off
+		  RTWCAPIParams		  off
+		  RTWCAPIStates		  off
+		  RTWCAPIRootIO		  off
+		  ERTSrcFileBannerTemplate "ert_code_template.cgt"
+		  ERTHdrFileBannerTemplate "ert_code_template.cgt"
+		  ERTDataSrcFileTemplate  "ert_code_template.cgt"
+		  ERTDataHdrFileTemplate  "ert_code_template.cgt"
+		  ERTCustomFileTemplate	  "example_file_process.tlc"
+		  EnableDataOwnership	  off
+		  SignalDisplayLevel	  10
+		  ParamTuneLevel	  10
+		  GlobalDataDefinition	  "Auto"
+		  DataDefinitionFile	  "global.c"
+		  GlobalDataReference	  "Auto"
+		  ERTFilePackagingFormat  "Modular"
+		  DataReferenceFile	  "global.h"
+		  PreserveExpressionOrder off
+		  PreserveIfCondition	  off
+		  ConvertIfToSwitch	  off
+		  PreserveExternInFcnDecls on
+		  SuppressUnreachableDefaultCases off
+		  IndentStyle		  "K&R"
+		  IndentSize		  "2"
+		  EnableUserReplacementTypes off
+		  Array {
+		    Type		    "Struct"
+		    Dimension		    1
+		    MATStruct {
+		    double		    ""
+		    single		    ""
+		    int32		    ""
+		    int16		    ""
+		    int8		    ""
+		    uint32		    ""
+		    uint16		    ""
+		    uint8		    ""
+		    boolean		    ""
+		    int			    ""
+		    uint		    ""
+		    char		    ""
+		    }
+		    PropName		    "ReplacementTypes"
+		  }
+		  MemSecPackage		  "--- None ---"
+		  MemSecDataConstants	  "Default"
+		  MemSecDataIO		  "Default"
+		  MemSecDataInternal	  "Default"
+		  MemSecDataParameters	  "Default"
+		  MemSecFuncInitTerm	  "Default"
+		  MemSecFuncExecute	  "Default"
+		  MemSecFuncSharedUtil	  "Default"
+		}
+		PropName		"Components"
+	      }
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	PropName		"Components"
+      }
+      Name		      "MotoHawk_ConfigurationSet_v3"
+      ExtraOptions	      "-aGenerateTraceInfo=0 -aIgnoreTestpoints=0 "
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition     [ 300, 205, 1380, 845 ] 
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    18
+  }
+  Object {
+    $PropName		    "DataTransfer"
+    $ObjectID		    30
+    $ClassName		    "Simulink.GlobalDataTransfer"
+    DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
+    DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
+    DefaultTransitionBetweenContTasks "Ensure deterministic transfer (minimum delay)"
+    DefaultExtrapolationMethodBetweenContTasks "None"
+    AutoInsertRateTranBlk   [0]
+  }
+  ExplicitPartitioning	  off
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "on"
+    RunInitForIconRedraw    "off"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      SamplingMode	      "Sample based"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
+      LockScale		      off
+      SampleTime	      "inf"
+      FramePeriod	      "inf"
+      PreserveConstantTs      off
+    }
+    Block {
+      BlockType		      EnablePort
+      StatesWhenEnabling      "held"
+      PropagateVarSize	      "Only when enabling"
+      ShowOutputPort	      off
+      ZeroCross		      on
+      PortDimensions	      "1"
+      SampleTime	      "-1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "double"
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      OutputFunctionCall      off
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchInputForFeedbackSignals off
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      Math
+      Operator		      "exp"
+      OutputSignalType	      "auto"
+      SampleTime	      "-1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as first input"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+      IntermediateResultsDataTypeStr "Inherit: Inherit via internal rule"
+      AlgorithmType	      "Newton-Raphson"
+      Iterations	      "3"
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+    }
+    Block {
+      BlockType		      Product
+      Inputs		      "2"
+      Multiplication	      "Element-wise(.*)"
+      CollapseMode	      "All dimensions"
+      CollapseDim	      "1"
+      InputSameDT	      on
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as first input"
+      LockScale		      off
+      RndMeth		      "Zero"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Scope
+      ModelBased	      off
+      TickLabels	      "OneTimeTick"
+      ZoomMode		      "on"
+      Grid		      "on"
+      TimeRange		      "auto"
+      YMin		      "-5"
+      YMax		      "5"
+      SaveToWorkspace	      off
+      SaveName		      "ScopeData"
+      DataFormat	      "Array"
+      LimitDataPoints	      on
+      MaxDataPoints	      "5000"
+      Decimation	      "1"
+      SampleInput	      off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Sin
+      SineType		      "Time based"
+      TimeSource	      "Use simulation time"
+      Amplitude		      "1"
+      Bias		      "0"
+      Frequency		      "1"
+      Phase		      "0"
+      Samples		      "10"
+      Offset		      "0"
+      SampleTime	      "-1"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      CheckFcnCallInpInsideContextMsg off
+      SystemSampleTime	      "-1"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      FunctionInterfaceSpec   "void_void"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Opaque		      off
+      MaskHideContents	      off
+      SFBlockType	      "NONE"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+      ContentPreviewEnabled   off
+    }
+    Block {
+      BlockType		      Sum
+      IconShape		      "rectangular"
+      Inputs		      "++"
+      CollapseMode	      "All dimensions"
+      CollapseDim	      "1"
+      InputSameDT	      on
+      AccumDataTypeStr	      "Inherit: Inherit via internal rule"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as first input"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      TriggerPort
+      TriggerType	      "rising"
+      StatesWhenEnabling      "inherit"
+      PropagateVarSize	      "During execution"
+      ShowOutputPort	      off
+      OutputDataType	      "auto"
+      SampleTimeType	      "triggered"
+      SampleTime	      "1"
+      ZeroCross		      on
+      PortDimensions	      "-1"
+      TriggerSignalSampleTime "-1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      UnitDelay
+      InitialCondition	      "0"
+      InputProcessing	      "Inherited"
+      SampleTime	      "1"
+      StateMustResolveToSignalObject off
+      CodeGenStateStorageClass "Auto"
+      HasFrameUpgradeWarning  on
+    }
+  }
+  System {
+    Name		    "Model_Lab"
+    Location		    [0, 22, 1680, 1010]
+    Open		    off
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "100"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "111"
+    Block {
+      BlockType		      SubSystem
+      Name		      "Function-Call\nSubsystem"
+      SID		      "6"
+      Ports		      [0, 0, 0, 1]
+      Position		      [605, 419, 705, 461]
+      ZOrder		      6
+      TreatAsAtomicUnit	      on
+      RequestExecContextInheritance off
+      System {
+	Name			"Function-Call\nSubsystem"
+	Location		[-8, 0, 1370, 744]
+	Open			on
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  TriggerPort
+	  Name			  "function"
+	  SID			  "69"
+	  Ports			  []
+	  Position		  [420, 20, 440, 40]
+	  ZOrder		  67
+	  TriggerType		  "function-call"
+	  StatesWhenEnabling	  "held"
+	}
+	Block {
+	  BlockType		  Sin
+	  Name			  "Cosine Wave\nFunction"
+	  SID			  "13"
+	  Ports			  [1, 1]
+	  Position		  [580, 925, 610, 955]
+	  ZOrder		  41
+	  TimeSource		  "Use external signal"
+	  Phase			  "pi/2"
+	  SampleTime		  "0"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Enabled\nSubsystem"
+	  SID			  "75"
+	  Ports			  [1, 1, 1]
+	  Position		  [1350, 379, 1450, 421]
+	  ZOrder		  72
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Enabled\nSubsystem"
+	    Location		    [0, 22, 1680, 1010]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In1"
+	      SID		      "76"
+	      Position		      [145, 573, 175, 587]
+	      ZOrder		      31
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      EnablePort
+	      Name		      "Enable"
+	      SID		      "77"
+	      Ports		      []
+	      Position		      [235, 20, 255, 40]
+	      ZOrder		      -2
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "78"
+	      Position		      [140, 205, 170, 235]
+	      ZOrder		      26
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant1"
+	      SID		      "79"
+	      Position		      [160, 395, 190, 425]
+	      ZOrder		      30
+	      Value		      "400"
+	    }
+	    Block {
+	      BlockType		      Math
+	      Name		      "Math\nFunction"
+	      SID		      "81"
+	      Ports		      [2, 1]
+	      Position		      [295, 277, 325, 308]
+	      ZOrder		      27
+	      BlockMirror	      on
+	      Operator		      "mod"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum"
+	      SID		      "82"
+	      Ports		      [2, 1]
+	      Position		      [235, 210, 255, 230]
+	      ZOrder		      28
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "|++"
+	      InputSameDT	      off
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      UnitDelay
+	      Name		      "Unit Delay"
+	      SID		      "110"
+	      Position		      [405, 268, 440, 302]
+	      ZOrder		      33
+	      BlockMirror	      on
+	      NamePlacement	      "alternate"
+	      InputProcessing	      "Elements as channels (sample based)"
+	      SampleTime	      "-1"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "motohawk_data_write"
+	      SID		      "83"
+	      Ports		      [2]
+	      Position		      [625, 475, 760, 535]
+	      ZOrder		      25
+	      ShowName		      off
+	      LibraryVersion	      "2.3"
+	      SourceBlock	      "MotoHawk_lib/Data Storage Blocks/motohawk_data_write"
+	      SourceType	      "MotoHawk Data Write"
+	      source		      "Lookup By Name"
+	      structure		      Vector
+	      operation		      "Write scalar into location by index"
+	      sz_vec		      400
+	      sz_row		      2
+	      sz_col		      9
+	      typ		      double
+	      nam		      "'SineData'"
+	      checkNull		      on
+	      write_read_only	      off
+	      struct_inst_name	      "''"
+	      struct_name	      "'MyStruct'"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      "84"
+	      Position		      [1250, 193, 1280, 207]
+	      ZOrder		      -3
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "Sum"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Math\nFunction"
+	      SrcPort		      1
+	      Points		      [-45, 0]
+	      DstBlock		      "Sum"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Constant1"
+	      SrcPort		      1
+	      Points		      [145, 0]
+	      DstBlock		      "Math\nFunction"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "Unit Delay"
+	      SrcPort		      1
+	      DstBlock		      "Math\nFunction"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Sum"
+	      SrcPort		      1
+	      Points		      [273, 0; 0, 65]
+	      Branch {
+		ZOrder			9
+		DstBlock		"Unit Delay"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			7
+		Points			[0, 235]
+		DstBlock		"motohawk_data_write"
+		DstPort			2
+	      }
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "In1"
+	      SrcPort		      1
+	      Points		      [174, 0; 0, -90]
+	      DstBlock		      "motohawk_data_write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Enabled\nSubsystem1"
+	  SID			  "85"
+	  Ports			  [1, 1, 1]
+	  Position		  [1390, 959, 1490, 1001]
+	  ZOrder		  73
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Enabled\nSubsystem1"
+	    Location		    [0, 22, 1680, 1010]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In1"
+	      SID		      "86"
+	      Position		      [145, 573, 175, 587]
+	      ZOrder		      31
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      EnablePort
+	      Name		      "Enable"
+	      SID		      "87"
+	      Ports		      []
+	      Position		      [235, 20, 255, 40]
+	      ZOrder		      -2
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "88"
+	      Position		      [140, 205, 170, 235]
+	      ZOrder		      26
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant1"
+	      SID		      "89"
+	      Position		      [160, 395, 190, 425]
+	      ZOrder		      30
+	      Value		      "400"
+	    }
+	    Block {
+	      BlockType		      Math
+	      Name		      "Math\nFunction"
+	      SID		      "91"
+	      Ports		      [2, 1]
+	      Position		      [295, 277, 325, 308]
+	      ZOrder		      27
+	      BlockMirror	      on
+	      Operator		      "mod"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum"
+	      SID		      "92"
+	      Ports		      [2, 1]
+	      Position		      [235, 210, 255, 230]
+	      ZOrder		      28
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "|++"
+	      InputSameDT	      off
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      UnitDelay
+	      Name		      "Unit Delay"
+	      SID		      "111"
+	      Position		      [405, 268, 440, 302]
+	      ZOrder		      33
+	      BlockMirror	      on
+	      NamePlacement	      "alternate"
+	      InputProcessing	      "Elements as channels (sample based)"
+	      SampleTime	      "-1"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "motohawk_data_write"
+	      SID		      "93"
+	      Ports		      [2]
+	      Position		      [625, 475, 760, 535]
+	      ZOrder		      25
+	      ShowName		      off
+	      LibraryVersion	      "2.3"
+	      SourceBlock	      "MotoHawk_lib/Data Storage Blocks/motohawk_data_write"
+	      SourceType	      "MotoHawk Data Write"
+	      source		      "Lookup By Name"
+	      structure		      Vector
+	      operation		      "Write scalar into location by index"
+	      sz_vec		      400
+	      sz_row		      2
+	      sz_col		      9
+	      typ		      double
+	      nam		      "'CosineData'"
+	      checkNull		      on
+	      write_read_only	      off
+	      struct_inst_name	      "''"
+	      struct_name	      "'MyStruct'"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      "94"
+	      Position		      [1250, 193, 1280, 207]
+	      ZOrder		      -3
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "Sum"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Math\nFunction"
+	      SrcPort		      1
+	      Points		      [-45, 0]
+	      DstBlock		      "Sum"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Constant1"
+	      SrcPort		      1
+	      Points		      [145, 0]
+	      DstBlock		      "Math\nFunction"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "Unit Delay"
+	      SrcPort		      1
+	      DstBlock		      "Math\nFunction"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Sum"
+	      SrcPort		      1
+	      Points		      [273, 0; 0, 65]
+	      Branch {
+		ZOrder			9
+		DstBlock		"Unit Delay"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			7
+		Points			[0, 235]
+		DstBlock		"motohawk_data_write"
+		DstPort			2
+	      }
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "In1"
+	      SrcPort		      1
+	      Points		      [174, 0; 0, -90]
+	      DstBlock		      "motohawk_data_write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Enabled\nSubsystem2"
+	  SID			  "95"
+	  Ports			  [1, 1, 1]
+	  Position		  [1775, 774, 1875, 816]
+	  ZOrder		  74
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  System {
+	    Name		    "Enabled\nSubsystem2"
+	    Location		    [0, 22, 1680, 1010]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In1"
+	      SID		      "96"
+	      Position		      [145, 573, 175, 587]
+	      ZOrder		      31
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      EnablePort
+	      Name		      "Enable"
+	      SID		      "97"
+	      Ports		      []
+	      Position		      [235, 20, 255, 40]
+	      ZOrder		      -2
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "98"
+	      Position		      [140, 205, 170, 235]
+	      ZOrder		      26
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant1"
+	      SID		      "99"
+	      Position		      [255, 395, 285, 425]
+	      ZOrder		      30
+	      Value		      "400"
+	    }
+	    Block {
+	      BlockType		      Math
+	      Name		      "Math\nFunction"
+	      SID		      "101"
+	      Ports		      [2, 1]
+	      Position		      [295, 277, 325, 308]
+	      ZOrder		      27
+	      BlockMirror	      on
+	      Operator		      "mod"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum"
+	      SID		      "102"
+	      Ports		      [2, 1]
+	      Position		      [235, 210, 255, 230]
+	      ZOrder		      28
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "|++"
+	      InputSameDT	      off
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      UnitDelay
+	      Name		      "Unit Delay"
+	      SID		      "109"
+	      Position		      [405, 268, 440, 302]
+	      ZOrder		      32
+	      BlockMirror	      on
+	      NamePlacement	      "alternate"
+	      InputProcessing	      "Elements as channels (sample based)"
+	      SampleTime	      "-1"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "motohawk_data_write"
+	      SID		      "103"
+	      Ports		      [2]
+	      Position		      [625, 475, 760, 535]
+	      ZOrder		      25
+	      ShowName		      off
+	      LibraryVersion	      "2.3"
+	      SourceBlock	      "MotoHawk_lib/Data Storage Blocks/motohawk_data_write"
+	      SourceType	      "MotoHawk Data Write"
+	      source		      "Lookup By Name"
+	      structure		      Vector
+	      operation		      "Write scalar into location by index"
+	      sz_vec		      400
+	      sz_row		      2
+	      sz_col		      9
+	      typ		      double
+	      nam		      "'SineCosData'"
+	      checkNull		      on
+	      write_read_only	      off
+	      struct_inst_name	      "''"
+	      struct_name	      "'MyStruct'"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      "104"
+	      Position		      [1250, 193, 1280, 207]
+	      ZOrder		      -3
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "Sum"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Math\nFunction"
+	      SrcPort		      1
+	      Points		      [-45, 0]
+	      DstBlock		      "Sum"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Constant1"
+	      SrcPort		      1
+	      Points		      [50, 0]
+	      DstBlock		      "Math\nFunction"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "Unit Delay"
+	      SrcPort		      1
+	      DstBlock		      "Math\nFunction"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Sum"
+	      SrcPort		      1
+	      Points		      [273, 0; 0, 65]
+	      Branch {
+		ZOrder			9
+		DstBlock		"Unit Delay"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			7
+		Points			[0, 235]
+		DstBlock		"motohawk_data_write"
+		DstPort			2
+	      }
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "In1"
+	      SrcPort		      1
+	      Points		      [174, 0; 0, -90]
+	      DstBlock		      "motohawk_data_write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Product
+	  Name			  "Product"
+	  SID			  "34"
+	  Ports			  [3, 1]
+	  Position		  [210, 149, 285, 431]
+	  ZOrder		  37
+	  Inputs		  "3"
+	  InputSameDT		  off
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  RndMeth		  "Floor"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Product
+	  Name			  "Product1"
+	  SID			  "35"
+	  Ports			  [2, 1]
+	  Position		  [665, 219, 740, 501]
+	  ZOrder		  39
+	  InputSameDT		  off
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  RndMeth		  "Floor"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Product
+	  Name			  "Product2"
+	  SID			  "36"
+	  Ports			  [3, 1]
+	  Position		  [265, 799, 340, 1081]
+	  ZOrder		  47
+	  Inputs		  "3"
+	  InputSameDT		  off
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  RndMeth		  "Floor"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Product
+	  Name			  "Product3"
+	  SID			  "37"
+	  Ports			  [2, 1]
+	  Position		  [690, 869, 765, 1151]
+	  ZOrder		  48
+	  InputSameDT		  off
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  RndMeth		  "Floor"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Product
+	  Name			  "Product4"
+	  SID			  "61"
+	  Ports			  [2, 1]
+	  Position		  [1470, 522, 1500, 553]
+	  ZOrder		  63
+	  InputSameDT		  off
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  RndMeth		  "Floor"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Scope
+	  Name			  "Scope"
+	  SID			  "38"
+	  Ports			  [1]
+	  Position		  [1150, 329, 1180, 361]
+	  ZOrder		  42
+	  Floating		  off
+	  Location		  [188, 390, 512, 629]
+	  Open			  off
+	  NumInputPorts		  "1"
+	  List {
+	    ListType		    AxesTitles
+	    axes1		    "%<SignalLabel>"
+	  }
+	  List {
+	    ListType		    ScopeGraphics
+	    FigureColor		    "[0.5 0.5 0.5]"
+	    AxesColor		    "[0 0 0]"
+	    AxesTickColor	    "[1 1 1]"
+	    LineColors		    "[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	    LineStyles		    "-|-|-|-|-|-"
+	    LineWidths		    "[0.5 0.5 0.5 0.5 0.5 0.5]"
+	    MarkerStyles	    "none|none|none|none|none|none"
+	  }
+	  ShowLegends		  off
+	  SaveName		  "ScopeData1"
+	  DataFormat		  "StructureWithTime"
+	  SampleTime		  "0"
+	}
+	Block {
+	  BlockType		  Scope
+	  Name			  "Scope1"
+	  SID			  "56"
+	  Ports			  [1]
+	  Position		  [1250, 1034, 1280, 1066]
+	  ZOrder		  58
+	  Floating		  off
+	  Location		  [188, 390, 512, 629]
+	  Open			  off
+	  NumInputPorts		  "1"
+	  List {
+	    ListType		    AxesTitles
+	    axes1		    "%<SignalLabel>"
+	  }
+	  List {
+	    ListType		    ScopeGraphics
+	    FigureColor		    "[0.5 0.5 0.5]"
+	    AxesColor		    "[0 0 0]"
+	    AxesTickColor	    "[1 1 1]"
+	    LineColors		    "[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	    LineStyles		    "-|-|-|-|-|-"
+	    LineWidths		    "[0.5 0.5 0.5 0.5 0.5 0.5]"
+	    MarkerStyles	    "none|none|none|none|none|none"
+	  }
+	  ShowLegends		  off
+	  DataFormat		  "StructureWithTime"
+	  SampleTime		  "0"
+	}
+	Block {
+	  BlockType		  Scope
+	  Name			  "Scope2"
+	  SID			  "58"
+	  Ports			  [1]
+	  Position		  [1950, 679, 1980, 711]
+	  ZOrder		  61
+	  Floating		  off
+	  Location		  [188, 390, 512, 629]
+	  Open			  off
+	  NumInputPorts		  "1"
+	  List {
+	    ListType		    AxesTitles
+	    axes1		    "%<SignalLabel>"
+	  }
+	  List {
+	    ListType		    ScopeGraphics
+	    FigureColor		    "[0.5 0.5 0.5]"
+	    AxesColor		    "[0 0 0]"
+	    AxesTickColor	    "[1 1 1]"
+	    LineColors		    "[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	    LineStyles		    "-|-|-|-|-|-"
+	    LineWidths		    "[0.5 0.5 0.5 0.5 0.5 0.5]"
+	    MarkerStyles	    "none|none|none|none|none|none"
+	  }
+	  ShowLegends		  off
+	  SaveName		  "ScopeData2"
+	  DataFormat		  "StructureWithTime"
+	  SampleTime		  "0"
+	}
+	Block {
+	  BlockType		  Sin
+	  Name			  "Sine Wave\nFunction"
+	  SID			  "39"
+	  Ports			  [1, 1]
+	  Position		  [580, 275, 610, 305]
+	  ZOrder		  38
+	  TimeSource		  "Use external signal"
+	  SampleTime		  "0"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_abs_time"
+	  SID			  "40"
+	  Ports			  [0, 1]
+	  Position		  [75, 368, 120, 402]
+	  ZOrder		  36
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Extra Development Blocks/motohawk_abs_time"
+	  SourceType		  "MotoHawk Absolute Time"
+	  mode			  "Seconds (double)"
+	  width			  "64 bit"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_abs_time1"
+	  SID			  "41"
+	  Ports			  [0, 1]
+	  Position		  [75, 1018, 120, 1052]
+	  ZOrder		  46
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Extra Development Blocks/motohawk_abs_time"
+	  SourceType		  "MotoHawk Absolute Time"
+	  mode			  "Seconds (double)"
+	  width			  "64 bit"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_calibration"
+	  SID			  "42"
+	  Ports			  [0, 1]
+	  Position		  [20, 175, 170, 215]
+	  ZOrder		  33
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Calibration & Probing Blocks/motohawk_calibration"
+	  SourceType		  "MotoHawk Calibration"
+	  nam			  "'TwoPi'"
+	  val			  "6.28318"
+	  storage		  "Calibration"
+	  show_more		  on
+	  name_source		  "Use Parameter"
+	  data_type		  "Inherit from 'Default Value'"
+	  read_level		  "1"
+	  write_level		  "1"
+	  ovr_cals		  on
+	  view_as		  "Number"
+	  enum_struct		  "{'Disabled', 'Enabled'}"
+	  vector_style		  "Wide Row"
+	  use_help_units	  off
+	  help			  "''"
+	  units			  "''"
+	  use_header_enum	  off
+	  row_header_enum	  "{}"
+	  col_header_enum	  "{}"
+	  use_min_max		  off
+	  min_val		  "-inf"
+	  max_val		  "inf"
+	  use_precision		  off
+	  precision		  "''"
+	  gain			  "1"
+	  offset		  "0"
+	  exp			  "1"
+	  use_mototune_group	  off
+	  mototune_group	  "motohawk_vardec_path(gcb)"
+	  data_stores		  "motohawk_sfun_calibration_data_stores"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_calibration1"
+	  SID			  "43"
+	  Ports			  [0, 1]
+	  Position		  [20, 270, 170, 310]
+	  ZOrder		  35
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Calibration & Probing Blocks/motohawk_calibration"
+	  SourceType		  "MotoHawk Calibration"
+	  nam			  "'f'"
+	  val			  "1"
+	  storage		  "Calibration"
+	  show_more		  off
+	  name_source		  "Use Parameter"
+	  data_type		  "Inherit from 'Default Value'"
+	  read_level		  "1"
+	  write_level		  "1"
+	  ovr_cals		  on
+	  view_as		  "Number"
+	  enum_struct		  "{'Disabled', 'Enabled'}"
+	  vector_style		  "Wide Row"
+	  use_help_units	  off
+	  help			  "''"
+	  units			  "''"
+	  use_header_enum	  off
+	  row_header_enum	  "{}"
+	  col_header_enum	  "{}"
+	  use_min_max		  off
+	  min_val		  "-inf"
+	  max_val		  "inf"
+	  use_precision		  off
+	  precision		  "''"
+	  gain			  "1"
+	  offset		  "0"
+	  exp			  "1"
+	  use_mototune_group	  off
+	  mototune_group	  "motohawk_vardec_path(gcb)"
+	  data_stores		  "motohawk_sfun_calibration_data_stores"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_calibration2"
+	  SID			  "44"
+	  Ports			  [0, 1]
+	  Position		  [360, 410, 510, 450]
+	  ZOrder		  40
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Calibration & Probing Blocks/motohawk_calibration"
+	  SourceType		  "MotoHawk Calibration"
+	  nam			  "'Amplitude'"
+	  val			  "10"
+	  storage		  "Calibration"
+	  show_more		  off
+	  name_source		  "Use Parameter"
+	  data_type		  "Inherit from 'Default Value'"
+	  read_level		  "1"
+	  write_level		  "1"
+	  ovr_cals		  on
+	  view_as		  "Number"
+	  enum_struct		  "{'Disabled', 'Enabled'}"
+	  vector_style		  "Wide Row"
+	  use_help_units	  off
+	  help			  "''"
+	  units			  "''"
+	  use_header_enum	  off
+	  row_header_enum	  "{}"
+	  col_header_enum	  "{}"
+	  use_min_max		  off
+	  min_val		  "-inf"
+	  max_val		  "inf"
+	  use_precision		  off
+	  precision		  "''"
+	  gain			  "1"
+	  offset		  "0"
+	  exp			  "1"
+	  use_mototune_group	  off
+	  mototune_group	  "motohawk_vardec_path(gcb)"
+	  data_stores		  "motohawk_sfun_calibration_data_stores"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_calibration3"
+	  SID			  "45"
+	  Ports			  [0, 1]
+	  Position		  [20, 825, 170, 865]
+	  ZOrder		  43
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Calibration & Probing Blocks/motohawk_calibration"
+	  SourceType		  "MotoHawk Calibration"
+	  nam			  "'TwoPi1'"
+	  val			  "6.28318"
+	  storage		  "Calibration"
+	  show_more		  off
+	  name_source		  "Use Parameter"
+	  data_type		  "Inherit from 'Default Value'"
+	  read_level		  "1"
+	  write_level		  "1"
+	  ovr_cals		  on
+	  view_as		  "Number"
+	  enum_struct		  "{'Disabled', 'Enabled'}"
+	  vector_style		  "Wide Row"
+	  use_help_units	  off
+	  help			  "''"
+	  units			  "''"
+	  use_header_enum	  off
+	  row_header_enum	  "{}"
+	  col_header_enum	  "{}"
+	  use_min_max		  off
+	  min_val		  "-inf"
+	  max_val		  "inf"
+	  use_precision		  off
+	  precision		  "''"
+	  gain			  "1"
+	  offset		  "0"
+	  exp			  "1"
+	  use_mototune_group	  off
+	  mototune_group	  "motohawk_vardec_path(gcb)"
+	  data_stores		  "motohawk_sfun_calibration_data_stores"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_calibration4"
+	  SID			  "46"
+	  Ports			  [0, 1]
+	  Position		  [20, 920, 170, 960]
+	  ZOrder		  45
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Calibration & Probing Blocks/motohawk_calibration"
+	  SourceType		  "MotoHawk Calibration"
+	  nam			  "'f1'"
+	  val			  "1"
+	  storage		  "Calibration"
+	  show_more		  off
+	  name_source		  "Use Parameter"
+	  data_type		  "Inherit from 'Default Value'"
+	  read_level		  "1"
+	  write_level		  "1"
+	  ovr_cals		  on
+	  view_as		  "Number"
+	  enum_struct		  "{'Disabled', 'Enabled'}"
+	  vector_style		  "Wide Row"
+	  use_help_units	  off
+	  help			  "''"
+	  units			  "''"
+	  use_header_enum	  off
+	  row_header_enum	  "{}"
+	  col_header_enum	  "{}"
+	  use_min_max		  off
+	  min_val		  "-inf"
+	  max_val		  "inf"
+	  use_precision		  off
+	  precision		  "''"
+	  gain			  "1"
+	  offset		  "0"
+	  exp			  "1"
+	  use_mototune_group	  off
+	  mototune_group	  "motohawk_vardec_path(gcb)"
+	  data_stores		  "motohawk_sfun_calibration_data_stores"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_calibration5"
+	  SID			  "47"
+	  Ports			  [0, 1]
+	  Position		  [45, 1250, 195, 1290]
+	  ZOrder		  49
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Calibration & Probing Blocks/motohawk_calibration"
+	  SourceType		  "MotoHawk Calibration"
+	  nam			  "'Amplitude1'"
+	  val			  "10"
+	  storage		  "Calibration"
+	  show_more		  off
+	  name_source		  "Use Parameter"
+	  data_type		  "Inherit from 'Default Value'"
+	  read_level		  "1"
+	  write_level		  "1"
+	  ovr_cals		  on
+	  view_as		  "Number"
+	  enum_struct		  "{'Disabled', 'Enabled'}"
+	  vector_style		  "Wide Row"
+	  use_help_units	  off
+	  help			  "''"
+	  units			  "''"
+	  use_header_enum	  off
+	  row_header_enum	  "{}"
+	  col_header_enum	  "{}"
+	  use_min_max		  off
+	  min_val		  "-inf"
+	  max_val		  "inf"
+	  use_precision		  off
+	  precision		  "''"
+	  gain			  "1"
+	  offset		  "0"
+	  exp			  "1"
+	  use_mototune_group	  off
+	  mototune_group	  "motohawk_vardec_path(gcb)"
+	  data_stores		  "motohawk_sfun_calibration_data_stores"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_calibration6"
+	  SID			  "105"
+	  Ports			  [0, 1]
+	  Position		  [1215, 130, 1365, 170]
+	  ZOrder		  75
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Calibration & Probing Blocks/motohawk_calibration"
+	  SourceType		  "MotoHawk Calibration"
+	  nam			  "'log'"
+	  val			  "0"
+	  storage		  "Calibration"
+	  show_more		  off
+	  name_source		  "Use Parameter"
+	  data_type		  "Inherit from 'Default Value'"
+	  read_level		  "1"
+	  write_level		  "1"
+	  ovr_cals		  on
+	  view_as		  "Number"
+	  enum_struct		  "{'Disabled', 'Enabled'}"
+	  vector_style		  "Wide Row"
+	  use_help_units	  off
+	  help			  "''"
+	  units			  "''"
+	  use_header_enum	  off
+	  row_header_enum	  "{}"
+	  col_header_enum	  "{}"
+	  use_min_max		  off
+	  min_val		  "-inf"
+	  max_val		  "inf"
+	  use_precision		  off
+	  precision		  "''"
+	  gain			  "1"
+	  offset		  "0"
+	  exp			  "1"
+	  use_mototune_group	  off
+	  mototune_group	  "motohawk_vardec_path(gcb)"
+	  data_stores		  "motohawk_sfun_calibration_data_stores"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_calibration7"
+	  SID			  "106"
+	  Ports			  [0, 1]
+	  Position		  [1270, 720, 1420, 760]
+	  ZOrder		  76
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Calibration & Probing Blocks/motohawk_calibration"
+	  SourceType		  "MotoHawk Calibration"
+	  nam			  "'log1'"
+	  val			  "0"
+	  storage		  "Calibration"
+	  show_more		  off
+	  name_source		  "Use Parameter"
+	  data_type		  "Inherit from 'Default Value'"
+	  read_level		  "1"
+	  write_level		  "1"
+	  ovr_cals		  on
+	  view_as		  "Number"
+	  enum_struct		  "{'Disabled', 'Enabled'}"
+	  vector_style		  "Wide Row"
+	  use_help_units	  off
+	  help			  "''"
+	  units			  "''"
+	  use_header_enum	  off
+	  row_header_enum	  "{}"
+	  col_header_enum	  "{}"
+	  use_min_max		  off
+	  min_val		  "-inf"
+	  max_val		  "inf"
+	  use_precision		  off
+	  precision		  "''"
+	  gain			  "1"
+	  offset		  "0"
+	  exp			  "1"
+	  use_mototune_group	  off
+	  mototune_group	  "motohawk_vardec_path(gcb)"
+	  data_stores		  "motohawk_sfun_calibration_data_stores"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_calibration8"
+	  SID			  "107"
+	  Ports			  [0, 1]
+	  Position		  [1625, 620, 1775, 660]
+	  ZOrder		  77
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Calibration & Probing Blocks/motohawk_calibration"
+	  SourceType		  "MotoHawk Calibration"
+	  nam			  "'log2'"
+	  val			  "0"
+	  storage		  "Calibration"
+	  show_more		  off
+	  name_source		  "Use Parameter"
+	  data_type		  "Inherit from 'Default Value'"
+	  read_level		  "1"
+	  write_level		  "1"
+	  ovr_cals		  on
+	  view_as		  "Number"
+	  enum_struct		  "{'Disabled', 'Enabled'}"
+	  vector_style		  "Wide Row"
+	  use_help_units	  off
+	  help			  "''"
+	  units			  "''"
+	  use_header_enum	  off
+	  row_header_enum	  "{}"
+	  col_header_enum	  "{}"
+	  use_min_max		  off
+	  min_val		  "-inf"
+	  max_val		  "inf"
+	  use_precision		  off
+	  precision		  "''"
+	  gain			  "1"
+	  offset		  "0"
+	  exp			  "1"
+	  use_mototune_group	  off
+	  mototune_group	  "motohawk_vardec_path(gcb)"
+	  data_stores		  "motohawk_sfun_calibration_data_stores"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_data_def"
+	  SID			  "73"
+	  Ports			  []
+	  Position		  [460, 145, 595, 205]
+	  ZOrder		  70
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Data Storage Blocks/motohawk_data_def"
+	  SourceType		  "MotoHawk Data Definition"
+	  nam			  "'SineData'"
+	  container_nam		  "''"
+	  data			  "zeros(1,400)"
+	  typ			  "double"
+	  struct_nam		  "'MyStruct'"
+	  storage		  "NonVolatile"
+	  outputRef		  off
+	  use_vardec		  on
+	  window		  "Display"
+	  read_level		  "1"
+	  write_level		  "1"
+	  ovr_cals		  on
+	  view_as		  "Number"
+	  enum_struct		  "{'Disabled', 'Enabled'}"
+	  vector_style		  "Wide Row"
+	  use_help_units	  off
+	  help			  "''"
+	  units			  "'' "
+	  use_header_enum	  off
+	  row_header_enum	  "''"
+	  col_header_enum	  "''"
+	  use_min_max		  off
+	  min_val		  "-inf"
+	  max_val		  "inf"
+	  use_precision		  off
+	  precision		  "''"
+	  gain			  "1"
+	  offset		  "0"
+	  exp			  "1"
+	  use_mototune_group	  off
+	  mototune_group	  "motohawk_vardec_path(gcb)"
+	  eval_name		  "MyData"
+	  data_stores		  "motohawk_sfun_data_def_data_stores"
+	  struct_instances	  "motohawk_sfun_data_def_struct_instances"
+	  vardecs		  "motohawk_sfun_data_def_vardecs"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_data_def1"
+	  SID			  "74"
+	  Ports			  []
+	  Position		  [450, 765, 585, 825]
+	  ZOrder		  71
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Data Storage Blocks/motohawk_data_def"
+	  SourceType		  "MotoHawk Data Definition"
+	  nam			  "'CosineData'"
+	  container_nam		  "''"
+	  data			  "zeros(1,400)"
+	  typ			  "double"
+	  struct_nam		  "'MyStruct'"
+	  storage		  "NonVolatile"
+	  outputRef		  off
+	  use_vardec		  on
+	  window		  "Display"
+	  read_level		  "1"
+	  write_level		  "1"
+	  ovr_cals		  on
+	  view_as		  "Number"
+	  enum_struct		  "{'Disabled', 'Enabled'}"
+	  vector_style		  "Wide Row"
+	  use_help_units	  off
+	  help			  "''"
+	  units			  "'' "
+	  use_header_enum	  off
+	  row_header_enum	  "''"
+	  col_header_enum	  "''"
+	  use_min_max		  off
+	  min_val		  "-inf"
+	  max_val		  "inf"
+	  use_precision		  off
+	  precision		  "''"
+	  gain			  "1"
+	  offset		  "0"
+	  exp			  "1"
+	  use_mototune_group	  off
+	  mototune_group	  "motohawk_vardec_path(gcb)"
+	  eval_name		  "MyData"
+	  data_stores		  "motohawk_sfun_data_def_data_stores"
+	  struct_instances	  "motohawk_sfun_data_def_struct_instances"
+	  vardecs		  "motohawk_sfun_data_def_vardecs"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_data_def2"
+	  SID			  "108"
+	  Ports			  []
+	  Position		  [1625, 390, 1760, 450]
+	  ZOrder		  78
+	  BlockMirror		  on
+	  NamePlacement		  "alternate"
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Data Storage Blocks/motohawk_data_def"
+	  SourceType		  "MotoHawk Data Definition"
+	  nam			  "'SineCosData'"
+	  container_nam		  "''"
+	  data			  "zeros(1,400)"
+	  typ			  "double"
+	  struct_nam		  "'MyStruct'"
+	  storage		  "NonVolatile"
+	  outputRef		  off
+	  use_vardec		  on
+	  window		  "Display"
+	  read_level		  "1"
+	  write_level		  "1"
+	  ovr_cals		  on
+	  view_as		  "Number"
+	  enum_struct		  "{'Disabled', 'Enabled'}"
+	  vector_style		  "Wide Row"
+	  use_help_units	  off
+	  help			  "''"
+	  units			  "'' "
+	  use_header_enum	  off
+	  row_header_enum	  "''"
+	  col_header_enum	  "''"
+	  use_min_max		  off
+	  min_val		  "-inf"
+	  max_val		  "inf"
+	  use_precision		  off
+	  precision		  "''"
+	  gain			  "1"
+	  offset		  "0"
+	  exp			  "1"
+	  use_mototune_group	  off
+	  mototune_group	  "motohawk_vardec_path(gcb)"
+	  eval_name		  "MyData"
+	  data_stores		  "motohawk_sfun_data_def_data_stores"
+	  struct_instances	  "motohawk_sfun_data_def_struct_instances"
+	  vardecs		  "motohawk_sfun_data_def_vardecs"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_override_abs"
+	  SID			  "72"
+	  Ports			  [1, 1]
+	  Position		  [385, 927, 535, 953]
+	  ZOrder		  69
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Calibration & Probing Blocks/motohawk_override_abs"
+	  SourceType		  "MotoHawk Absolute Override"
+	  ContentPreviewEnabled	  off
+	  parent_name		  "'Angle_Override1'"
+	  parent_val		  "0"
+	  show_more		  off
+	  name_source		  "Use Parameter"
+	  parent_read_level	  "1"
+	  parent_override_level	  "1"
+	  view_as		  "Number"
+	  enum_struct		  "{'Disabled', 'Enabled'}"
+	  use_help_units	  off
+	  parent_help		  "''"
+	  parent_units		  "''"
+	  use_min_max		  off
+	  parent_min		  "-inf"
+	  parent_max		  "inf"
+	  use_precision		  off
+	  parent_precision	  "''"
+	  parent_gain		  "1"
+	  parent_offset		  "0"
+	  parent_exp		  "1"
+	  use_mototune_group	  off
+	  parent_group		  "motohawk_vardec_path(gcb)"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_override_abs1"
+	  SID			  "71"
+	  Ports			  [1, 1]
+	  Position		  [345, 277, 495, 303]
+	  ZOrder		  68
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Calibration & Probing Blocks/motohawk_override_abs"
+	  SourceType		  "MotoHawk Absolute Override"
+	  ContentPreviewEnabled	  off
+	  parent_name		  "'Angle_Override'"
+	  parent_val		  "0"
+	  show_more		  off
+	  name_source		  "Use Parameter"
+	  parent_read_level	  "1"
+	  parent_override_level	  "1"
+	  view_as		  "Number"
+	  enum_struct		  "{'Disabled', 'Enabled'}"
+	  use_help_units	  off
+	  parent_help		  "''"
+	  parent_units		  "''"
+	  use_min_max		  off
+	  parent_min		  "-inf"
+	  parent_max		  "inf"
+	  use_precision		  off
+	  parent_precision	  "''"
+	  parent_gain		  "1"
+	  parent_offset		  "0"
+	  parent_exp		  "1"
+	  use_mototune_group	  off
+	  parent_group		  "motohawk_vardec_path(gcb)"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_probe"
+	  SID			  "54"
+	  Ports			  [1]
+	  Position		  [900, 177, 1050, 203]
+	  ZOrder		  34
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Calibration & Probing Blocks/motohawk_probe"
+	  SourceType		  "MotoHawk Probe"
+	  nam			  "'sine'"
+	  show_more		  off
+	  name_source		  "Use Parameter"
+	  read_level		  "1"
+	  view_as		  "Number"
+	  enum_struct		  "{'Disabled', 'Enabled'}"
+	  vector_style		  "Wide Row"
+	  use_help_units	  off
+	  help			  "''"
+	  units			  "''"
+	  use_header_enum	  off
+	  row_header_enum	  "{}"
+	  col_header_enum	  "{}"
+	  use_min_max		  off
+	  min_val		  "-inf"
+	  max_val		  "inf"
+	  use_precision		  off
+	  precision		  "''"
+	  gain			  "1"
+	  offset		  "0"
+	  exp			  "1"
+	  use_mototune_group	  off
+	  mototune_group	  "motohawk_vardec_path(gcb)"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_probe1"
+	  SID			  "55"
+	  Ports			  [1]
+	  Position		  [1095, 867, 1245, 893]
+	  ZOrder		  44
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Calibration & Probing Blocks/motohawk_probe"
+	  SourceType		  "MotoHawk Probe"
+	  nam			  "'Cosine'"
+	  show_more		  off
+	  name_source		  "Use Parameter"
+	  read_level		  "1"
+	  view_as		  "Number"
+	  enum_struct		  "{'Disabled', 'Enabled'}"
+	  vector_style		  "Wide Row"
+	  use_help_units	  off
+	  help			  "''"
+	  units			  "''"
+	  use_header_enum	  off
+	  row_header_enum	  "{}"
+	  col_header_enum	  "{}"
+	  use_min_max		  off
+	  min_val		  "-inf"
+	  max_val		  "inf"
+	  use_precision		  off
+	  precision		  "''"
+	  gain			  "1"
+	  offset		  "0"
+	  exp			  "1"
+	  use_mototune_group	  off
+	  mototune_group	  "motohawk_vardec_path(gcb)"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "motohawk_probe2"
+	  SID			  "59"
+	  Ports			  [1]
+	  Position		  [1700, 527, 1850, 553]
+	  ZOrder		  60
+	  ShowName		  off
+	  LibraryVersion	  "2.3"
+	  SourceBlock		  "MotoHawk_lib/Calibration & Probing Blocks/motohawk_probe"
+	  SourceType		  "MotoHawk Probe"
+	  nam			  "'SineCos'"
+	  show_more		  off
+	  name_source		  "Use Parameter"
+	  read_level		  "1"
+	  view_as		  "Number"
+	  enum_struct		  "{'Disabled', 'Enabled'}"
+	  vector_style		  "Wide Row"
+	  use_help_units	  off
+	  help			  "''"
+	  units			  "''"
+	  use_header_enum	  off
+	  row_header_enum	  "{}"
+	  col_header_enum	  "{}"
+	  use_min_max		  off
+	  min_val		  "-inf"
+	  max_val		  "inf"
+	  use_precision		  off
+	  precision		  "''"
+	  gain			  "1"
+	  offset		  "0"
+	  exp			  "1"
+	  use_mototune_group	  off
+	  mototune_group	  "motohawk_vardec_path(gcb)"
+	}
+	Line {
+	  ZOrder		  2
+	  SrcBlock		  "motohawk_calibration"
+	  SrcPort		  1
+	  DstBlock		  "Product"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  3
+	  SrcBlock		  "motohawk_calibration1"
+	  SrcPort		  1
+	  DstBlock		  "Product"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  4
+	  SrcBlock		  "motohawk_abs_time"
+	  SrcPort		  1
+	  DstBlock		  "Product"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  5
+	  SrcBlock		  "Sine Wave\nFunction"
+	  SrcPort		  1
+	  DstBlock		  "Product1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  8
+	  SrcBlock		  "Product1"
+	  SrcPort		  1
+	  Points		  [134, 0; 0, -15]
+	  Branch {
+	    ZOrder		    31
+	    Points		    [98, 0]
+	    Branch {
+	      ZOrder		      53
+	      Points		      [0, 55]
+	      Branch {
+		ZOrder			64
+		Points			[0, 130]
+		DstBlock		"Product4"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			63
+		DstBlock		"Enabled\nSubsystem"
+		DstPort			1
+	      }
+	    }
+	    Branch {
+	      ZOrder		      48
+	      DstBlock		      "Scope"
+	      DstPort		      1
+	    }
+	  }
+	  Branch {
+	    ZOrder		    30
+	    Points		    [0, -155]
+	    DstBlock		    "motohawk_probe"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  9
+	  SrcBlock		  "motohawk_calibration2"
+	  SrcPort		  1
+	  DstBlock		  "Product1"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  10
+	  SrcBlock		  "motohawk_calibration3"
+	  SrcPort		  1
+	  DstBlock		  "Product2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  11
+	  SrcBlock		  "motohawk_calibration4"
+	  SrcPort		  1
+	  DstBlock		  "Product2"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  12
+	  SrcBlock		  "motohawk_abs_time1"
+	  SrcPort		  1
+	  DstBlock		  "Product2"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  15
+	  SrcBlock		  "Product3"
+	  SrcPort		  1
+	  Points		  [206, 0]
+	  Branch {
+	    ZOrder		    59
+	    Points		    [0, -30]
+	    Branch {
+	      ZOrder		      67
+	      Points		      [0, -100; 36, 0]
+	      Branch {
+		ZOrder			54
+		Points			[0, -335]
+		DstBlock		"Product4"
+		DstPort			2
+	      }
+	      Branch {
+		ZOrder			50
+		DstBlock		"motohawk_probe1"
+		DstPort			1
+	      }
+	    }
+	    Branch {
+	      ZOrder		      66
+	      DstBlock		      "Enabled\nSubsystem1"
+	      DstPort		      1
+	    }
+	  }
+	  Branch {
+	    ZOrder		    58
+	    Points		    [0, 40]
+	    DstBlock		    "Scope1"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  16
+	  SrcBlock		  "motohawk_calibration5"
+	  SrcPort		  1
+	  Points		  [235, 0; 0, -190]
+	  DstBlock		  "Product3"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  17
+	  SrcBlock		  "Cosine Wave\nFunction"
+	  SrcPort		  1
+	  DstBlock		  "Product3"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  55
+	  SrcBlock		  "Product4"
+	  SrcPort		  1
+	  Points		  [95, 0]
+	  Branch {
+	    ZOrder		    69
+	    Points		    [0, 255]
+	    DstBlock		    "Enabled\nSubsystem2"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    68
+	    DstBlock		    "motohawk_probe2"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  56
+	  SrcBlock		  "Product"
+	  SrcPort		  1
+	  DstBlock		  "motohawk_override_abs1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  57
+	  SrcBlock		  "motohawk_override_abs1"
+	  SrcPort		  1
+	  DstBlock		  "Sine Wave\nFunction"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  60
+	  SrcBlock		  "Product2"
+	  SrcPort		  1
+	  DstBlock		  "motohawk_override_abs"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  61
+	  SrcBlock		  "motohawk_override_abs"
+	  SrcPort		  1
+	  DstBlock		  "Cosine Wave\nFunction"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  70
+	  SrcBlock		  "motohawk_calibration6"
+	  SrcPort		  1
+	  Points		  [44, 0; 0, 214]
+	  DstBlock		  "Enabled\nSubsystem"
+	  DstPort		  enable
+	}
+	Line {
+	  ZOrder		  71
+	  SrcBlock		  "motohawk_calibration7"
+	  SrcPort		  1
+	  Points		  [15, 0]
+	  DstBlock		  "Enabled\nSubsystem1"
+	  DstPort		  enable
+	}
+	Line {
+	  ZOrder		  72
+	  SrcBlock		  "motohawk_calibration8"
+	  SrcPort		  1
+	  Points		  [45, 0]
+	  DstBlock		  "Enabled\nSubsystem2"
+	  DstPort		  enable
+	}
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Main Power Relay"
+      SID		      "4"
+      Ports		      []
+      Position		      [590, 72, 778, 165]
+      ZOrder		      4
+      ShowName		      off
+      LibraryVersion	      "2.3"
+      SourceBlock	      "MotoHawk_lib/Extra Development Blocks/Main Power Relay"
+      SourceType	      "MotoHawk Main Power Relay Control"
+      ContentPreviewEnabled   off
+      on_delay_count	      "2"
+      off_delay_count	      "5"
+      ecup_threshold	      "100"
+      group		      "'System | Main Power Relay'"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "motohawk_target_def"
+      SID		      "1"
+      Ports		      []
+      Position		      [100, 52, 510, 427]
+      ZOrder		      1
+      ShowName		      off
+      Priority		      "-65535"
+      LibraryVersion	      "2.3"
+      FontSize		      14
+      SourceBlock	      "MotoHawk_lib/motohawk_target_def"
+      SourceType	      "MotoHawk Target Definition"
+      target		      "ECU565-128"
+      layout		      "DEV"
+      fptype		      "single (32 bits)"
+      fgnd_stack_size	      "3*1024"
+      fgnd_angle_stack_size   "0"
+      bgnd_stack_size	      "2*1024"
+      idle_stack_size	      "1024"
+      irq_stack_size	      "1536"
+      app_int_stack_size      "1024"
+      shutdown_stack_size     "1024"
+      heap_size		      "4*1024"
+      show_margins	      off
+      fgnd_stack_margin	      "(3*1024) * 0.1"
+      fgnd_angle_stack_margin "0"
+      bgnd_stack_margin	      "(2*1024) * 0.1"
+      idle_stack_margin	      "(1024) * 0.1"
+      irq_stack_margin	      "(1536) * 0.1"
+      app_int_stack_margin    "(1024) * 0.1"
+      shutdown_stack_margin   "(1024) * 0.1"
+      heap_margin	      "(4*1024) * 0.1"
+      comp_name		      "bdroot"
+      comp_img		      "'KVASER_CAN_USB.jpg'"
+      comp_security	      "No Encryption"
+      comp_build_pass	      "'mhbuild'"
+      comp_sim_pass	      "'mhsim'"
+      comp_multi	      off
+      show_filenames	      off
+      dll_name		      "motohawk_trunc_name(bdroot, ['_' motohawk_build_version], 13)"
+      srz_name		      "motohawk_trunc_name(bdroot, ['_' motohawk_build_version], 50)"
+      build_dir		      "'.'"
+      comp_dir		      "'.'"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "motohawk_trigger"
+      SID		      "5"
+      Tag		      "Trigger"
+      Ports		      [0, 1]
+      Position		      [555, 215, 755, 320]
+      ZOrder		      5
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      Priority		      "0"
+      LibraryVersion	      "2.3"
+      SourceBlock	      "MotoHawk_lib/Trigger Blocks/motohawk_trigger"
+      SourceType	      "MotoHawk Function Trigger"
+      trig_name		      "[]"
+      trigger		      "FGND_RTI_PERIODIC"
+      priority_order	      "0"
+      inherited		      off
+      run_disabled	      off
+      override_app_monitor    off
+      target		      "ECU565_128"
+    }
+    Line {
+      ZOrder		      2
+      SrcBlock		      "motohawk_trigger"
+      SrcPort		      1
+      DstBlock		      "Function-Call\nSubsystem"
+      DstPort		      trigger
+    }
+  }
+}
